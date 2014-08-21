@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <windows.h>
 #include <shellapi.h>
-#include <strsafe.h>
 #include <tchar.h>
+#include <strsafe.h>
 
 #define WM_MYMESSAGE (WM_USER + 1)
 #define TRAYHOST_ICON_ID 100
