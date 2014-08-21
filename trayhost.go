@@ -24,9 +24,15 @@ import (
 import "C"
 
 const (
-	ICON_PRIMARY     = iota
-	ICON_ALTERNATIVE = iota
-	ICON_ATTENTION   = iota
+	ICON_PRIMARY       = iota
+	ICON_ALTERNATIVE   = iota
+	ICON_ATTENTION     = iota
+	ICON_IDLE          = iota
+	ICON_NOT_CONNECTED = iota
+	ICON_DL            = iota
+	ICON_UL            = iota
+	ICON_ERROR         = iota
+	ICON_UL_DL         = iota
 )
 
 const (
